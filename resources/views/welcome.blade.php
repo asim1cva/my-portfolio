@@ -52,10 +52,10 @@
     ];
 
     $statistics = [
-        ['number' => '6+', 'label' => 'Apps Published'],
+        ['number' => '16+', 'label' => 'Apps Published'],
         ['number' => '4+', 'label' => 'Years Experience'],
-        ['number' => '100%', 'label' => 'Client Satisfaction'],
-        ['number' => '50K+', 'label' => 'App Downloads']
+        ['number' => '98%', 'label' => 'Client Satisfaction'],
+        ['number' => '10k+', 'label' => 'App Downloads']
     ];
 
     $experience = [
@@ -79,7 +79,7 @@
             'period' => 'Feb 2022 - Oct 2024',
             'description' => 'Developed mobile applications for clients, focusing on user experience and performance optimization.',
             'achievements' => [
-                'Delivered 10+ production-ready apps using ',
+                'Delivered 9+ production-ready apps using ',
                 'Collaborated with cross-functional teams',
                 'Improved app load times by 40%'
             ]
@@ -91,9 +91,11 @@
             'period' => 'Jan 2020 - Feb 2022',
             'description' => 'Developed mobile applications for clients, focusing on user experience and performance optimization.',
             'achievements' => [
-                'Delivered 10+ production-ready apps using ',
-                'Collaborated with cross-functional teams',
-                'Improved app load times by 40%'
+                'Delivered 7+ production-ready apps using ',
+                'Developed, built, and distributed native Android and iOS apps on the Google Play Store and Apple App Store.',
+                'Integrated third-party libraries and services like Alamofire, Stripe, Firebase.',
+                'Developed iOS apps using SwiftUI and the MVVM architecture.',
+                'Gained experience in Android app development using JetPack.'
             ]
         ]
     ];
@@ -224,7 +226,7 @@
                 <i class="fab fa-github"></i>
                 <span>GitHub</span>
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <a href="https://www.linkedin.com/in/muhammad-asim-514854137" target="_blank" rel="noopener noreferrer" class="contact-link">
                 <i class="fab fa-linkedin"></i>
                 <span>LinkedIn</span>
             </a>
