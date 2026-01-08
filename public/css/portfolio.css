@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+header {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+section {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* About */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Skills */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #020617;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.project {
+    background: #020617;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+}
+
+.project a {
+    display: block;
+    color: inherit;
+}
+
+.project img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+/* Statistics */
+.statistics {
+    background: linear-gradient(135deg, #1e3a8a, #1e40af);
+    padding: 70px 20px;
+    margin: 0;
+    max-width: 100%;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #e5e7eb;
+}
+
+/* Technologies & Tools */
+.technologies {
+    display: grid;
+    gap: 30px;
+}
+
+.tech-category {
+    background: #020617;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 4px solid #2563eb;
+}
+
+.tech-category-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-tag {
+    background: #1e293b;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid #334155;
+    transition: all 0.3s;
+}
+
+.tech-tag:hover {
+    background: #2563eb;
+    border-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* Experience Timeline */
+.experience-timeline {
+    display: grid;
+    gap: 30px;
+    position: relative;
+}
+
+.experience-item {
+    background: #020617;
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 4px solid #2563eb;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.exp-title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #e5e7eb;
+}
+
+.exp-company {
+    color: #2563eb;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.exp-company:hover {
+    color: #3b82f6;
+    transform: translateX(3px);
+}
+
+.exp-company i {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.exp-period {
+    background: #1e293b;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.exp-description {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.exp-achievements {
+    list-style: none;
+    padding: 0;
+}
+
+.exp-achievements li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #cbd5e1;
+}
+
+.exp-achievements li i {
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-size: 0.9rem;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 30px;
+    background: #2563eb;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.contact-link i {
+    font-size: 1.1rem;
+}
+
+.contact-link:hover {
+    transform: translateY(-3px);
+    background: #1e40af;
+}
+
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media(max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .exp-header {
+        flex-direction: column;
+    }
+
+    .exp-period {
+        align-self: flex-start;
+    }
+
+    .tech-tags {
+        gap: 8px;
+    }
+
+    .tech-tag {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
+}
+
