@@ -5,41 +5,77 @@
 @php
     $projects = [
         [
-            'title' => 'Travel Clothing Club',
+            'title' => 'Travel Clothing Club (Flutter)',
             'description' => 'Cross-platform app using Flutter with Getx as State Management, REST-APIs, Firebase, Pusher for real-time chat, and Stripe for payments.',
             'url' => 'https://apps.apple.com/us/app/travel-clothing-club/id6754902957',
-            'image' => 'https://res.cloudinary.com/dgq11ggb9/image/upload/v1767870399/1024_tvosnx.png'
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/8d/29/298d2982-53c4-c000-73d9-5c87477ec799/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/800x800ia-75.webp'
         ],
         [
-            'title' => 'FON VPN',
+            'title' => 'VPN Global Protect: FONVPN (iOS - SwiftUI)',
             'description' => 'VPN application for iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication, implementing iOS subscriptions via StoreKit for premium features',
             'url' => 'https://apps.apple.com/us/app/vpn-global-protect-fonvpn/id6468386565',
             'image' => 'https://res.cloudinary.com/dgq11ggb9/image/upload/v1767870655/1024_wvxsiu.png'
         ],
         [
-            'title' => 'VPN-Lightning',
+            'title' => 'VPN-Lightning (iOS - SwiftUI)',
             'description' => 'VPN application for iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication, implementing iOS subscriptions via StoreKit for premium features',
             'url' => 'https://apps.apple.com/us/app/vpn-lightning/id1585962294',
-            'image' => 'https://res.cloudinary.com/dgq11ggb9/image/upload/v1767875119/1024_bmfe6j.png'
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/c4/a7/5ec4a71c-0aab-eca3-1ad1-212a67ae17a3/AppIcon-0-0-1x_U007emarketing-0-11-0-512MB-85-220.png/800x800ia-75.webp'
         ],
         [
-            'title' => 'Mite VPN',
+            'title' => 'Mite VPN (iOS - SwiftUI)',
             'description' => 'VPN application for iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication, implementing iOS subscriptions via StoreKit for premium features',
             'url' => 'https://apps.apple.com/us/app/mite-vpn/id6745258516',
-            'image' => 'https://res.cloudinary.com/dgq11ggb9/image/upload/v1767875372/MiteVPN_h5dvj7.jpg'
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/2e/87/d72e8791-9d3e-4d20-97df-6d21aead5dc6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/800x800ia-75.webp'
         ],
         [
-            'title' => 'Urban Shield VPN',
+            'title' => 'Urban Shield VPN (iOS - SwiftUI)',
             'description' => 'VPN application for iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication, implementing iOS subscriptions via StoreKit for premium features',
             'url' => 'https://apps.apple.com/us/app/urban-shield-vpn/id6753347161',
-            'image' => 'https://res.cloudinary.com/dgq11ggb9/image/upload/v1767876486/Icon-Light-1024x1024_k5rnms.png'
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/62/07/d7620741-bc44-855f-6a5a-63b12ec4bc1c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/800x800ia-75.webp'
         ],
         [
-            'title' => 'Bundle Up',
+            'title' => 'XyberVeil VPN (iOS - SwiftUI)',
+            'description' => 'VPN application for iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication, implementing iOS subscriptions via StoreKit for premium features',
+            'url' => 'https://apps.apple.com/us/app/xyberveil-vpn/id6747746478',
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/66/7c/f6667c12-521d-2f95-89d0-4a5c3b52574d/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/800x800ia-75.webp'
+        ],
+        [
+            'title' => 'Virgo VPN (iOS - SwiftUI)',
+            'description' => 'VPN application for iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication, implementing iOS subscriptions via StoreKit for premium features',
+            'url' => 'https://apps.apple.com/us/app/virgo-vpn/id6477369066',
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/47/db/8c47db0c-a400-388b-7114-bfea5490fc8c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/800x800ia-75.webp'
+        ],
+        [
+            'title' => 'Bundle Up (Flutter)',
             'description' => 'Cross-platform app using Flutter with Getx as State Management, REST-APIs, Firebase, Firestore for real-time chat, and Stripe for payments.',
             'url' => 'https://apps.apple.com/us/app/bundle-up/id6741536037',
-            'image' => 'https://res.cloudinary.com/dgq11ggb9/image/upload/v1767874107/1024_s1gj9o.png'
-        ]
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/e0/83/00e0836b-06d0-bee6-6d15-06f5258b87c6/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/800x800ia-75.webp'
+        ],
+        [
+            'title' => 'Foodage (Flutter)',
+            'description' => 'Cross-platform app using Flutter with Getx as State Management, REST-APIs, Firebase, Firestore for real-time chat, and Stripe for payments.',
+            'url' => 'https://apps.apple.com/us/app/foodage-find-food-reviews/id1620709672',
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/f2/24/f2f22495-2678-703b-30d0-ed6acd41fc19/Placeholder.mill/800x800bb-75.webp'
+        ],
+        [
+            'title' => 'Takehair (Flutter)',
+            'description' => 'Cross-platform app using Flutter with Getx as State Management, REST-APIs, Firebase, Firestore for real-time chat, pusher for real time status update and Stripe for payments.',
+            'url' => 'https://apps.apple.com/us/developer/takehair/id1662470871',
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/2b/e4/052be460-aaac-b826-e569-c2019a5a3509/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/800x800ia-75.webp'
+        ],
+        [
+            'title' => 'Life Defender Alert Family (iOS - SwiftUI)',
+            'description' => 'iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication.',
+            'url' => 'https://apps.apple.com/us/app/life-defender-alert-family/id6503321782',
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/08/f8/4408f844-c42e-3a83-d7bb-8a86fe492d45/AppIcon-0-0-1x_U007ephone-0-11-85-220.png/800x800ia-75.webp'
+        ],
+        [
+            'title' => 'Ishana Dance (iOS - SwiftUI)',
+            'description' => 'iOS using SwiftUI with the MVVM architectural pattern, integrating REST APIs for server management and user authentication.',
+            'url' => 'https://apps.apple.com/us/app/ishana-dance/id1643969495',
+            'image' => 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5b/6e/70/5b6e70cf-619c-2cd0-da0f-689b6e484889/Placeholder.mill/800x800bb-75.webp'
+        ],
     ];
 
     $skills = [
